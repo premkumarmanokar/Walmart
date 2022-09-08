@@ -150,8 +150,13 @@
 .borderradius {
   border-radius: 10px;
 }
-.shadow{
-  box-shadow:  0 0 5px rgb(105, 105, 105);
+.shadow {
+  box-shadow: 0 0 5px rgb(105, 105, 105);
+}
+.heading-pad{
+  padding: 20px 0 0 15px;
+  font-size: 18px;
+  float: left;
 }
 .div1 {
   background: url(images/man-with-blower.jpg);
@@ -200,9 +205,9 @@
   padding-right: 85px;
 }
 .div2 h3 {
-  padding: 20px 0 0 15px;
+  /* padding: 20px 0 0 15px; */
   display: block;
-  width: max-content;
+  
 }
 
 .div2 img {
@@ -210,31 +215,80 @@
   float: right;
   padding-top: 20px;
 }
-.div2 #amount{
+.div2 #amount {
   padding-top: 270px;
 }
-.div2 p{
+.div2 p {
   padding-left: 15px;
   padding-top: 10px;
   font-size: 15px;
-color: rgba(126, 117, 117, 0.863);
+  color: rgba(126, 117, 117, 0.863);
 }
 .div3 {
   grid-column: 1/3;
   grid-row: 3/4;
   height: 130px;
-  background-color: wheat;
+  width: 400px;
+  background-color: rgb(230, 241, 252);
 }
+.div3 a{
+  background-color: white;
+  padding: 8px 12px;
+  float: right;
+  margin:20px  20px 0 0;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .div4 {
   grid-column: 1/3;
   grid-row: 4/5;
   height: 250px;
   background-color: white;
+  width: 400px;
+ 
+}
+.div4 a{
+  float: right;
+  margin: 20px 15px 0 0;
+  color: rgb(85, 85, 85);
+  font-size: 15px;
+}
+.div4-container{
+  width: 100%;
+  height: 200px;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  border-radius: 0 0 10px 10px;
+}
+.div4-content{
+  height: 100%;
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  text-align: center;
+}
+.div4-content i{
+  font-size: 40px;
+  color: rgb(8,117,221);
+  padding: 27.5px 30px;
+  border-radius: 50%;
+  margin: 30px 12.5px 20px 12.5px;
+  background-color: rgb(212, 232, 253);
+}
+.div4-content p{
+  font-size: 14px;
+  width: 100%;
 }
 .div5 {
   grid-column: 3/5;
   grid-row: 3/5;
   height: 400px;
+  width: 400px                                                                                                                ;
   background-color: white;
 }
 .div6 {
